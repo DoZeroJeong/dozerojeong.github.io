@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oracle Database 11g Memory Architecture
-featured-img: oracle-image
+featured-img: oracle-image.png
 ---
 
 ## Oracle Database System
