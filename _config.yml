@@ -17,7 +17,6 @@ social:
 # Build settings
 markdown: kramdown
 highlighter: rouge # or pygments or null
-theme: jekyll-sleek
 exclude:
   - README.md
   - node_modules
