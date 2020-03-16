@@ -12,8 +12,9 @@ title: Java Spring Boot 시작하기
 ext{
         springBootVersion = '2.1.7.RELEASE'
     }
-</pre>
 </code>
+</pre>
+
 
 build.gradle에서 사용하는 전역변수를 설정하겠다는 의미로 여기서는 springBootVersion 전역변수를 생성하고 그 값을 '2.1.7RELEASE'로 하겠다는 의미
 
@@ -23,8 +24,9 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
-</pre>
 </code>
+</pre>
+
 
 io.spring.dependency-management 플러그인은 스프링 부트의 의존성들을 관리해 주는 플러그인이라 꼭 추가해야함
 
@@ -39,8 +41,8 @@ repositories{
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
-</pre>
 </code>
+</pre>
 
 repositories는 각종 의존성들을 어떤 원격 저장소에서 받을지를 정함
 dependencies는 프로젝트 개발에 필요한 의존성들을 선업하는 곳
