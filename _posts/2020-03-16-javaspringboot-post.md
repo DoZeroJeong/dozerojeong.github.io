@@ -44,5 +44,5 @@ repositories{
 </code>
 </pre>
 
-repositories는 각종 의존성들을 어떤 원격 저장소에서 받을지를 정함
+repositories는 각종 의존성들을 어떤 원격 저장소에서 받을지를 정함   
 dependencies는 프로젝트 개발에 필요한 의존성들을 선업하는 곳
